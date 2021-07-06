@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Shasha Network</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!--Core CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link id="theme-sheet" rel="stylesheet" href="assets/css/core.css">
+
+</head>
+
+<body class="is-theme-red">
+    <div class="infraloader is-active"></div>
+    <!-- Hero and Navbar -->
+    <div class="hero gradient-hero is-fullheight">
+
+        <!-- Navbar partial -->
+        <nav class="navbar navbar-wrapper is-cloned">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html">
+                      <img src="snlogo.png" width="100" height="300"><img> Shasha Network
+                        <!-- <img class="switcher-logo" src="assets/img/logos/logo/bulkit-core.svg" alt=""> -->
+                    </a>
+
+                    <!-- Sidebar Trigger -->
+                    <!-- <a class="navbar-item hamburger-btn navigation-trigger" href="javascript:void(0);">
+                        <span class="menu-toggle">
+                            <span class="icon-box-toggle">
+                                <span class="rotate">
+                                    <i class="icon-line-top"></i>
+                                    <i class="icon-line-center"></i>
+                                    <i class="icon-line-bottom"></i>
+                                </span>
+                        </span>
+                        </span>
+                    </a> -->
+
+                    <!-- Responsive toggle -->
+                    <div class="custom-burger" data-target="is-cloned">
+                        <a class="responsive-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">
+                                <span class="icon-box-toggle">
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i>
+                                    </span>
+                            </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- /Responsive toggle -->
+                </div>
+
+                <!-- Navbar menu -->
+                <div id="is-cloned" class="navbar-menu">
+                    <!-- Navbar Start -->
+                    <div class="navbar-start">
+                        <!-- Dropdown -->
+                        <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
+                            <!-- <div class="navbar-link">
+                                Product
+                            </div> -->
+                        </div> <!-- Navbar item -->
+                        <a class="navbar-item is-slide is-centered-tablet is-hidden-desktop is-hidden-tablet" href="kit7-landing.html">
+                            Product
+                        </a>
+
+                    </div>
+
+                    <!-- Navbar end -->
+                    <div class="navbar-end">
+
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        About
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Areas of Expertise
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Our Approach
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Network
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Insights
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Team
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Contact
+                      </a>
+                        <!-- Signup button -->
+                        <div class="navbar-item is-button is-centered-tablet">
+                            <a id="#signup-btn" href="kit7-authentication.html" class="button button-cta is-bold btn-align primary-btn raised is-rounded">
+                                Sign up
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-wrapper navbar-light is-transparent is-static">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+                      <img src="snlogo.png"><img>
+                        <!-- <img src="assets/img/logos/bulkit-white.svg" alt=""> -->
+                    </a>
+
+                    <!-- Sidebar Trigger -->
+                    <!-- <a id="navigation-trigger" class="navbar-item hamburger-btn" href="javascript:void(0);">
+                        <span class="menu-toggle">
+                            <span class="icon-box-toggle">
+                                <span class="rotate">
+                                    <i class="icon-line-top"></i>
+                                    <i class="icon-line-center"></i>
+                                    <i class="icon-line-bottom"></i>
+                                </span>
+                        </span>
+                        </span>
+                    </a> -->
+
+                    <!-- Responsive toggle -->
+                    <!-- <div class="custom-burger" data-target="is-static">
+                        <a class="responsive-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">
+                                <span class="icon-box-toggle">
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i>
+                                    </span>
+                            </span>
+                            </span>
+                        </a>
+                    </div> -->
+                    <!-- /Responsive toggle -->
+                </div>
+
+                <!-- Navbar menu -->
+                <div id="is-static" class="navbar-menu">
+                    <!-- Navbar Start -->
+                    <div class="navbar-start">
+                        <!-- Dropdown -->
+                        <a class="navbar-item is-slide is-centered-tablet is-hidden-desktop is-hidden-tablet" href="kit7-landing.html">
+                            Product
+                        </a>
+
+                    </div>
+
+                    <!-- Navbar end -->
+                    <div class="navbar-end">
+
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        About
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Areas of Expertise
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Our Approach
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Network
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Insights
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Team
+                      </a>
+                      <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                        Contact
+                      </a>
+                        <!-- Navbar item -->
+                        <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+                            Pricing
+                        </a>
+                        <!-- Navbar item -->
+                        <a class="navbar-item is-slide is-centered-tablet" href="kit7-authentication.html">
+                            Login
+                        </a>
+                        <!-- Signup button -->
+                        <div class="navbar-item is-button is-centered-tablet">
+                            <a id="#signup-btn-double" href="kit7-authentication.html" class="button button-cta is-bold btn-align primary-btn raised is-rounded">
+                                Sign up
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="square square-1"></div>
+        <div class="square square-2"></div>
+
+        <img class="slant-shape" src="assets/img/graphics/legacy/slant-light.svg" alt="">
+
+        <!-- Hero content -->
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered hero-caption">
+                    <div class="column is-7 laptop-container">
+                        <img src="girl.svg" width="400" height="300"><img>
+                    </div>
+                    <div class="column is-5 is-hero-title">
+                      <h2 class="subtitle is-4">
+                          Developing champions through
+                      </h2>
+                        <h1 class="title is-3 is-medium">
+                          Impact Community Talent
+                        </h1>
+                        <div class="buttons">
+                            <a href="#" class="button button-cta is-bold btn-align white-btn is-rounded raised">
+                                Get Started
+                            </a>
+                            <!-- <a href="#" class="button button-cta is-bold btn-align primary-btn is-rounded raised">
+                                Try For Free
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-foot is-pulled">
+        <div class="container">
+            <div class="tabs partner-tabs is-centered">
+                <ul>
+                    <li><a><img class="partner-logo" src="assets/img/logos/custom/covenant.svg" alt=""></a></li>
+                    <li><a><img class="partner-logo" src="assets/img/logos/custom/infinite.svg" alt=""></a></li>
+                    <li><a><img class="partner-logo" src="assets/img/logos/custom/phasekit.svg" alt=""></a></li>
+                    <li><a><img class="partner-logo" src="assets/img/logos/custom/grubspot.svg" alt=""></a></li>
+                    <li><a><img class="partner-logo" src="assets/img/logos/custom/gutwork.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Feature -->
+    <div id="start-features" class="section is-medium is-skewed-sm">
+        <div class="container is-reverse-skewed-sm">
+            <!-- Title -->
+            <div class="section-title-wrapper has-text-centered">
+                <div class="bg-number">1</div>
+                <h2 class="section-title-landing">
+                  Our latest chapter Shasha Bridge
+                </h2>
+                <h4>Programme Overview</h4>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="columns is-vcentered quick-feature-wrap">
+                    <div class="column is-4 is-offset-1">
+                        <!-- Title -->
+                        <div class="title quick-feature">
+                            <h2 class="title is-3 clean-text">Self Leadership</h2>
+                            <div class="bg-number is-fat">1</div>
+                        </div>
+                        <div class="title-divider"></div>
+                        <span class="section-feature-description body-color">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu
+                            harum inermis iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo
+                            decore labitur.</span>
+                        <div class="button-wrap">
+                            <a href="#" class="button btn-align btn-more is-link color-primary">
+                              Learn more about this topic <i class="sl sl-icon-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="column is-6 is-offset-1">
+                        <img src="assets/img/graphics/features/kit1-3-core.svg" data-base-url="assets/img/graphics/features/kit1-3" data-extension=".svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature -->
+    <div class="section section-feature-grey is-medium is-skewed-sm">
+        <div class="container is-reverse-skewed-sm">
+
+            <div class="columns is-vcentered quick-feature-wrap">
+
+                <div class="column is-6">
+                    <img src="assets/img/graphics/icons/kit2-1-core.svg" data-base-url="assets/img/graphics/icons/kit2-1" data-extension=".svg" alt="">
+                </div>
+
+                <div class="column is-4 is-offset-1">
+                    <!-- Title -->
+                    <div class="title quick-feature">
+                        <h2 class="clean-text">Mentorship</h2>
+                        <div class="bg-number is-fat">2</div>
+                    </div>
+                    <!-- /Title -->
+                    <div class="title-divider"></div>
+                    <span class="section-feature-description body-color">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo decore
+                        labitur.</span>
+                    <div class="button-wrap">
+                        <a href="#" class="button btn-align btn-more is-link color-primary">
+                          Learn more about this topic <i class="sl sl-icon-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /Feature -->
+
+    <!-- Feature -->
+    <div class="section is-medium is-skewed-sm">
+        <div class="container is-reverse-skewed-sm">
+
+            <div class="columns is-vcentered quick-feature-wrap">
+
+                <div class="column is-4 is-offset-1">
+                    <!-- Title -->
+                    <div class="title quick-feature">
+                        <h2 class="clean-text">Career Research</h2>
+                        <div class="bg-number is-fat">3</div>
+                    </div>
+                    <div class="title-divider"></div>
+                    <span class="section-feature-description body-color">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo decore
+                        labitur.</span>
+                    <div class="button-wrap">
+                        <a href="#" class="button btn-align btn-more is-link color-primary">
+                          Learn more about this topic <i class="sl sl-icon-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="column is-6 is-offset-1">
+                    <img src="assets/img/graphics/icons/kit2-2-core.svg" data-base-url="assets/img/graphics/icons/kit2-2" data-extension=".svg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- /Feature -->
+    <div class="section section-feature-grey is-medium is-skewed-sm">
+        <div class="container is-reverse-skewed-sm">
+
+            <div class="columns is-vcentered quick-feature-wrap">
+
+                <div class="column is-6">
+                    <img src="assets/img/graphics/icons/kit2-3-core.svg" data-base-url="assets/img/graphics/icons/kit2-3" data-extension=".svg" alt="">
+                </div>
+
+                <div class="column is-4 is-offset-1">
+                    <!-- Title -->
+                    <div class="title quick-feature">
+                        <h2 class="clean-text">Personal Branding</h2>
+                        <div class="bg-number is-fat">4</div>
+                    </div>
+                    <div class="title-divider"></div>
+                    <span class="section-feature-description body-color">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo decore
+                        labitur.</span>
+                    <div class="button-wrap">
+                        <a href="#" class="button btn-align btn-more is-link color-primary">
+                            Learn more about this topic <i class="sl sl-icon-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /Feature -->
+    <section id="business-types" class="section">
+        <div class="container">
+            <!-- Title -->
+            <div class="section-title-wrapper has-text-centered my-6">
+                <h2 class="section-title-landing">Key Dates</h2>
+                <h4>Take a look at our upcoming deadlines.</h4>
+            </div>
+
+            <!-- Content -->
+            <div class="conference-schedule">
+                <div class="navigation-tabs full-pills primary animated-tabs">
+                    <div class="tabs is-centered">
+                        <ul>
+                            <li class="tab-link is-active" data-tab="day-1-tab">
+                                <a>Deadlines</a>
+                            </li>
+                            <li style="font-size:15px;"class="tab-link" data-tab="day-2-tab"><a>Cohort Start</a></li>
+                        </ul>
+                    </div>
+                    <div id="day-1-tab" class="navtab-content is-active">
+                        <div class="columns is-multiline">
+                            <!--Schedule Item-->
+                            <div class="column is-6">
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/nick.jpg" alt="" />
+                                    <!-- <h4>Morning</h4> -->
+                                    <h3>First Intake</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span style="font-size:20px;">Jan 21, 2022</span>
+                                    </p>
+                                    <!-- <p> -->
+                                        <!-- <i data-feather="clock"></i> -->
+                                        <!-- <span>09:30 am - 10:30 pm</span> -->
+                                    <!-- </p> -->
+                                    <p>
+                                        <!-- <i data-feather="map-pin"></i> -->
+                                        <!-- <span>Conference Room 2A</span> -->
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/nick.jpg" alt="" />
+                                    <!-- <h4>Morning</h4> -->
+                                    <h3>Second Intake</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span style="font-size:20px;">Feb 19, 2022</span>
+                                    </p>
+                                    <!-- <p> -->
+                                        <!-- <i data-feather="clock"></i> -->
+                                        <!-- <span>09:30 am - 10:30 pm</span> -->
+                                    <!-- </p> -->
+                                    <p>
+                                        <!-- <i data-feather="map-pin"></i> -->
+                                        <!-- <span>Conference Room 2A</span> -->
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/nick.jpg" alt="" />
+                                    <!-- <h4>Morning</h4> -->
+                                    <h3>Third Intake</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span style="font-size:20px;">Mar 20, 2022</span>
+                                    </p>
+                                    <!-- <p> -->
+                                        <!-- <i data-feather="clock"></i> -->
+                                        <!-- <span>09:30 am - 10:30 pm</span> -->
+                                    <!-- </p> -->
+                                    <p>
+                                        <!-- <i data-feather="map-pin"></i> -->
+                                        <!-- <span>Conference Room 2A</span> -->
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/nick.jpg" alt="" />
+                                    <!-- <h4>Morning</h4> -->
+                                    <h3>Fourth Intake</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span style="font-size:20px;">Apr 21, 2022</span>
+                                    </p>
+                                    <!-- <p> -->
+                                        <!-- <i data-feather="clock"></i> -->
+                                        <!-- <span>09:30 am - 10:30 pm</span> -->
+                                    <!-- </p> -->
+                                    <p>
+                                        <!-- <i data-feather="map-pin"></i> -->
+                                        <!-- <span>Conference Room 2A</span> -->
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="day-2-tab" class="navtab-content">
+                        <div class="columns is-multiline">
+                            <!--Schedule Item-->
+                            <div class="column is-6">
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/mila.jpg" alt="" />
+                                    <h4>Morning</h4>
+                                    <h3>Part 1 - Conversions</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span>sep 31, 2021</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="clock"></i>
+                                        <span>09:30 am - 10:30 pm</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="map-pin"></i>
+                                        <span>Conference Room 2A</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <!--Schedule Item-->
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/marc.jpg" alt="" />
+                                    <h4>Morning</h4>
+                                    <h3>Part 2 - Marketing</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span>sep 30, 2021</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="clock"></i>
+                                        <span>11:30 am - 12:30 pm</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="map-pin"></i>
+                                        <span>Conference Room 2A</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <!--Schedule Item-->
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/elie.jpg" alt="" />
+                                    <h4>Afternoon</h4>
+                                    <h3>Part 3 - Sales</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span>sep 30, 2021</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="clock"></i>
+                                        <span>2:30 pm - 3:30 pm</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="map-pin"></i>
+                                        <span>Conference Room 2B</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <!--Schedule Item-->
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/ben.jpg" alt="" />
+                                    <h4>Afternoon</h4>
+                                    <h3>Part 4 - Design</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span>sep 30, 2021</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="clock"></i>
+                                        <span>4:30 pm - 6:30 pm</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="map-pin"></i>
+                                        <span>Conference Room 2C</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="day-3-tab" class="navtab-content">
+                        <div class="columns is-multiline">
+                            <!--Schedule Item-->
+                            <div class="column is-6">
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/ben.jpg" alt="" />
+                                    <h4>Morning</h4>
+                                    <h3>Participants welcome and intro</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span>sep 30, 2021</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="clock"></i>
+                                        <span>09:30 am - 10:30 pm</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="map-pin"></i>
+                                        <span>Conference Room 2A</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <!--Schedule Item-->
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/elie.jpg" alt="" />
+                                    <h4>Morning</h4>
+                                    <h3>Part 1 - Marketing</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span>sep 30, 2021</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="clock"></i>
+                                        <span>11:30 am - 12:30 pm</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="map-pin"></i>
+                                        <span>Conference Room 2A</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <!--Schedule Item-->
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/nick.jpg" alt="" />
+                                    <h4>Afternoon</h4>
+                                    <h3>Part 2 - Sales</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span>sep 30, 2021</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="clock"></i>
+                                        <span>2:30 pm - 3:30 pm</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="map-pin"></i>
+                                        <span>Conference Room 2B</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <!--Schedule Item-->
+                                <div class="box schedule-box">
+                                    <img class="speaker" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/avatars/mila.jpg" alt="" />
+                                    <h4>Afternoon</h4>
+                                    <h3>Part 3 - Design</h3>
+                                    <p>
+                                        <i data-feather="calendar"></i>
+                                        <span>sep 30, 2021</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="clock"></i>
+                                        <span>4:30 pm - 6:30 pm</span>
+                                    </p>
+                                    <p>
+                                        <i data-feather="map-pin"></i>
+                                        <span>Conference Room 2C</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-light-medium">
+        <div class="container">
+            <div class="footer-head">
+                <div class="head-text">
+                    <h3>Ready to get started?</h3>
+                    <p>Create your free account now</p>
+                </div>
+            </div>
+                <!-- Column -->
+
+            <div class="footer-copyright has-text-centered">
+                <p>&copy; 2019-2020 | <a href="https://cssninja.io">Css Ninja</a> | All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer> <!-- Side navigation -->
+
+    <!-- /Side navigation -->
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- /Chat widget -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/core.js"></script>
+</body>
+
+</html>
